@@ -15,9 +15,9 @@ header, nav, article, aside, footer {
 }
 p {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	text-align: justify;
-    text-indent: 25px;
+    text-indent: 50px;
     margin-top: 20px;
 	padding: 15px;
 }
@@ -121,12 +121,64 @@ article {
     float: left;
 }
 aside {
-    width: 450px;
+    
     float:none;
     margin-left: 50px;
     margin-top: 0px;
-}        
 }
+section {
+    float: right;
+    margin-top: auto;
+}
+table, tr, td, th {
+    padding: 5px;
+    margin-top: 15px;
+    border: 2px solid gold;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.book {
+    float: right;
+}
+
+.anel {
+    float: left;
+    margin-right: 15px;
+    margin-top: 100px;
+}
+.anel2 {
+    float: right;
+    margin-top: 70px;
+    margin-right: 180px;
+}
+
+.tema-anel {
+    text-align: justify;
+}
+
+
+.autor {
+    margin-right: 5px;
+    margin-top: 15px;
+    float: left;
+}
+
+.diretor{
+    float: left;
+    margin-right: 15px;
+}
+.rodape {
+    margin-left: 200px
+}
+
+.bilbo {
+    margin-left: 275px;
+}
+}
+
 .text-end {
     margin-left: 215px;
     font-size: 20px;
